@@ -259,6 +259,94 @@ window.STUDY_DATA = (() => {
       explanation: "Confiança e proteção envolvem segurança, confiabilidade e proteção das informações.",
       remember: "Segurança e confiabilidade fazem parte de confiança e proteção.",
       reference: refs.esA2
+    },
+    {
+      topic: "Software",
+      prompt: "Segundo a revisão, por que software não deve ser entendido apenas como código-fonte?",
+      options: ["Porque também pode envolver dados, documentação, configuração e procedimentos associados.", "Porque software é somente o hardware físico que executa programas.", "Porque código-fonte pertence apenas à Engenharia de Sistemas.", "Porque documentação substitui totalmente a execução do programa.", "Porque software é sempre um sistema embarcado crítico."],
+      explanation: "A revisão apresenta software como conjunto de programas, estruturas de dados, procedimentos e documentação associada.",
+      remember: "Software pode envolver código, dados, documentação, configuração e procedimentos.",
+      reference: refs.rev
+    },
+    {
+      topic: "Especificação de Software",
+      prompt: "Antes de desenvolver um sistema bancário, a equipe define consultas de saldo, transferências e controle de acesso. Qual atividade isso representa?",
+      options: ["Especificação de software.", "Evolução depois da entrega.", "Processamento em lote.", "Sistema de entretenimento.", "Ocultamento de informação."],
+      explanation: "Definir serviços e restrições antes da construção faz parte da especificação.",
+      remember: "Especificação responde o que o sistema deve fazer e quais restrições precisa respeitar.",
+      reference: refs.rev
+    },
+    {
+      topic: "Desafios",
+      prompt: "Um aplicativo precisa funcionar em celular, computador, redes diferentes e sistemas já existentes. Qual desafio da Engenharia de Software está mais evidente?",
+      options: ["Heterogeneidade.", "Aceitabilidade apenas visual.", "Processamento em lote.", "Documentação acima de software funcionando.", "Projeto como ideia sem plano."],
+      explanation: "Heterogeneidade envolve funcionamento em diferentes plataformas, dispositivos, redes e sistemas.",
+      remember: "Muitos ambientes diferentes indicam heterogeneidade.",
+      reference: refs.rev
+    },
+    {
+      topic: "Mudanças",
+      prompt: "O mercado muda e o software precisa receber novas funções para continuar útil. Qual desafio aparece nesse caso?",
+      options: ["Mudanças nos negócios e na sociedade.", "Impossibilidade de evolução.", "Execução exclusivamente offline.", "Ausência de requisitos.", "Modelo visual Kanban."],
+      explanation: "A revisão destaca que necessidades de usuários e mercado mudam, exigindo adaptação.",
+      remember: "Mudança de necessidade exige evolução e adaptação do software.",
+      reference: refs.rev
+    },
+    {
+      topic: "Sistemas Stand-alone",
+      prompt: "Um editor de imagens funciona localmente, mesmo sem rede. Qual tipo de sistema a revisão associa a esse exemplo?",
+      options: ["Sistema stand-alone.", "Sistema transacional remoto.", "Sistema de sistemas.", "Sistema de controle embarcado.", "Processo de validação."],
+      explanation: "Sistemas stand-alone executam localmente sem depender necessariamente de rede ou de outros sistemas.",
+      remember: "Stand-alone = funciona sozinho/localmente.",
+      reference: refs.rev
+    },
+    {
+      topic: "Sistemas Transacionais",
+      prompt: "Um site de comércio eletrônico recebe pedidos do usuário e processa operações em servidores. Qual tipo de sistema se encaixa melhor?",
+      options: ["Sistema interativo baseado em transações.", "Sistema de entretenimento offline.", "Sistema de modelagem meteorológica.", "Ferramenta de documentação estática.", "Componente físico sem software."],
+      explanation: "Sistemas transacionais recebem requisições dos usuários e processam operações, geralmente com servidores remotos.",
+      remember: "Banco e e-commerce são exemplos fortes de sistemas transacionais.",
+      reference: refs.rev
+    },
+    {
+      topic: "Modelagem e Simulação",
+      prompt: "Um sistema representa o comportamento do clima para prever cenários. Qual categoria dos materiais descreve esse caso?",
+      options: ["Sistema de modelagem e simulação.", "Sistema stand-alone de texto simples.", "Sistema de folha de pagamento em lote.", "Processo de especificação.", "Aceitabilidade de interface."],
+      explanation: "Modelagem e simulação representam ou simulam processos complexos do mundo real.",
+      remember: "Simuladores de voo e modelos meteorológicos pertencem a modelagem e simulação.",
+      reference: refs.rev
+    },
+    {
+      topic: "Coleta de Dados",
+      prompt: "Sensores capturam informações do ambiente e enviam para análise. Qual tipo de sistema aparece na revisão?",
+      options: ["Sistema de coleta de dados.", "Modelo Cascata.", "Ciência da Computação pura.", "Software funcionando acima de documentação.", "Projeto sem objetivo."],
+      explanation: "Sistemas de coleta de dados capturam informações por sensores ou dispositivos e encaminham para análise.",
+      remember: "Sensor + captura de ambiente + análise indica coleta de dados.",
+      reference: refs.rev
+    },
+    {
+      topic: "Verificação e Validação",
+      prompt: "Por que um software embarcado em automóvel exige testes e validação rigorosos?",
+      options: ["Porque pode ser crítico de segurança e uma falha pode causar danos graves.", "Porque sistemas embarcados sempre são apenas jogos recreativos.", "Porque a interface gráfica é o único elemento importante.", "Porque validação só serve para reduzir documentação.", "Porque esse tipo não possui hardware envolvido."],
+      explanation: "A revisão explica que sistemas automotivos podem ser críticos de segurança, exigindo testes, verificação, validação e confiabilidade.",
+      remember: "Quanto maior o risco real, maior o rigor em validação.",
+      reference: refs.rev
+    },
+    {
+      topic: "Engenharia de Software x Programação",
+      prompt: "Um código executa sem erro, mas não atende às necessidades do cliente. O que isso mostra sobre Engenharia de Software?",
+      options: ["Que programar é apenas uma parte; requisitos, validação e qualidade também importam.", "Que software funcionando sempre basta, mesmo sem atender o cliente.", "Que especificação deve ser feita apenas depois da manutenção.", "Que Engenharia de Software trata somente de hardware.", "Que evolução impede melhorias futuras."],
+      explanation: "Os materiais reforçam que Engenharia de Software não é apenas programação; envolve requisitos, testes, validação, qualidade e manutenção.",
+      remember: "Código que roda não garante software correto para o cliente.",
+      reference: refs.rev
+    },
+    {
+      topic: "Processos Diferentes",
+      prompt: "Por que um app de entretenimento e um sistema hospitalar podem exigir processos de desenvolvimento diferentes?",
+      options: ["Porque risco, criticidade, requisitos, segurança e necessidade de validação podem ser diferentes.", "Porque todo sistema deve seguir exatamente o mesmo processo sem adaptação.", "Porque sistemas hospitalares não possuem requisitos.", "Porque entretenimento sempre exige mais rigor que segurança humana.", "Porque processo de software é só uma lista de telas."],
+      explanation: "A revisão destaca que sistemas variam em requisitos, tamanho, risco, segurança, plataforma e criticidade.",
+      remember: "O processo deve se adaptar ao tipo e ao risco do software.",
+      reference: refs.rev
     }
   ];
 
